@@ -7,7 +7,7 @@ let startX = 0;
 
 const loadedFrames = {};
 const imagePath = (i) =>
-  `https://ik.imagekit.io/KULLANICI_ADI/360product/${productFolder}/img${String(i).padStart(3, '0')}.jpg`;
+  `https://ik.imagekit.io/rubusoft/360product/${productFolder}/img${String(i).padStart(3, '0')}.jpg`;
 
 function showFrame(frame) {
   viewer.style.backgroundImage = `url('${imagePath(frame)}')`;
